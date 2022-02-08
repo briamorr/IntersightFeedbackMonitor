@@ -11,7 +11,7 @@ def getFeedback():
 
     RESPONSE = requests.request(
         method="GET",
-        url="https://www.intersight.com/api/v1/aaa/AuditRecords?$top=10&$select=Email,CreateTime,Request&$filter=MoType eq 'feedback.FeedbackPost' and CreateTime gt " + timeDelta + "&$orderby=CreateTime desc",
+        url="https://www.intersight.com/api/v1/aaa/AuditRecords?$top=1000&$select=Email,CreateTime,Request&$filter=MoType eq 'feedback.FeedbackPost' and CreateTime gt " + timeDelta + "&$orderby=CreateTime desc",
         auth=AUTH
     )
 
