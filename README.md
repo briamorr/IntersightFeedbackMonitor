@@ -4,7 +4,7 @@
 
 
 
-##Pre-requisities:
+## Pre-requisities:
 
 -Intersight Account
 
@@ -15,7 +15,7 @@
 
 
 
-##Instructions:
+## Instructions:
 
 -Substitue api_key_id with your Intersight API key information
 
@@ -26,7 +26,7 @@
 
 
 
-##Example Output:
+## Example Output:
 
 
 2022-02-08T13:17:03.961Z abc@company.com
